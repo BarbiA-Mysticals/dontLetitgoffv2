@@ -86,6 +86,8 @@ p{
 
 .blur-text-and-fade{
   animation:blurr 10s;
+  animation: fadeOut 10s;
+  
   -webkit-animation: blurr 10s;
   
   
@@ -183,21 +185,23 @@ img{
         		
      </tw-passagedata><tw-passagedata pid="3" name="game-over-window" tags="" position="900,625" size="100,100">&lt;p&gt;The window opens and the candle went out, you find yourself in darkness. You just hear the monster growls, there is no escape. &lt;/p&gt;
 &lt;h1&gt;Game Over...&lt;/h1&gt;
-&lt;a&gt;[[Restart game|startpage]]&lt;/a&gt;
-</tw-passagedata><tw-passagedata pid="4" name="part3" tags="" position="1050,450" size="100,100">&lt;div class= &quot;fade-out-text-faster&quot;&gt;
+&lt;a&gt;&lt;img src=&quot;https://cdn.myportfolio.com/8e3e47e4-98a3-4df0-bffa-f108a70a0574/063a5496-8fb3-42b7-827a-37e400b8c090.png?h=77857a6040aae787ed3c31672b701879&quot;&gt;&lt;/a&gt;
+
+&lt;a&gt;[[restart|startpage]]&lt;/a&gt;</tw-passagedata><tw-passagedata pid="4" name="part3" tags="" position="1050,450" size="100,100">&lt;div class= &quot;fade-out-text-faster&quot;&gt;
 	&lt;h2&gt;Bella&lt;/h2&gt; 
 	&lt;p&gt; I just need to walk a little more, Then I will escape from this dark mansion.&lt;/p&gt;
 
-	&lt;p&gt;(*You walk by a windy section, the wind is threathening to blow your candle*)&lt;/p&gt;
-	&lt;a&gt;[[&lt;img src=&quot;https://cdn.myportfolio.com/8e3e47e4-98a3-4df0-bffa-f108a70a0574/495a063d-f321-4f3e-8df3-570736867929_rw_600.gif?h=36e1edd8d946f66a4f5651a73c0d312c&quot; alt=&quot;&quot; /&gt;|part4]]&lt;/a&gt;
+	&lt;p&gt;(*You walk by a windy section, the wind is threathening to blow your candle*)&lt;/p&gt;    
+	[[&lt;img src=&quot;https://cdn.myportfolio.com/8e3e47e4-98a3-4df0-bffa-f108a70a0574/495a063d-f321-4f3e-8df3-570736867929_rw_600.gif?h=36e1edd8d946f66a4f5651a73c0d312c&quot; alt=&quot;&quot; /&gt;|part4]]
+
 
 &lt;/div&gt;
 (live:10s)[(go-to:&quot;gameOver&quot;)]</tw-passagedata><tw-passagedata pid="5" name="startpage" tags="intro" position="750,400" size="100,100">&lt;div class =&quot;blur-text-and-fade&quot;&gt;
 	&lt;title&gt; Don&#39;t let it off&lt;/title&gt;
      &lt;h1&gt; Don&#39;t let it off&lt;/h1&gt;
-   
+   &lt;img src=&quot;https://cdn.myportfolio.com/8e3e47e4-98a3-4df0-bffa-f108a70a0574/063a5496-8fb3-42b7-827a-37e400b8c090.png?h=77857a6040aae787ed3c31672b701879&quot;&gt;
     
- &lt;/div&gt;
+
 
 &lt;a&gt;(link-reveal-goto: &quot;Start&quot;, &quot;part1&quot;)[ (track: &quot;myMusic&quot;,  &quot;loop&quot;, true) 
  (track: &quot;myMusic&quot;, &quot;play&quot;)
@@ -205,14 +209,16 @@ img{
  (track: &quot;monster&quot;, &quot;play&quot;)]&lt;/a&gt;
 
 
-
+ &lt;/div&gt;
 
 
 
 
 </tw-passagedata><tw-passagedata pid="6" name="gameOver" tags="" position="1050,275" size="100,100">&lt;p&gt;You didn&#39;t keep the candle lit, the monster has get to you. You are in fear. There is no way out. You accept your destiny. &lt;/p&gt;
 &lt;h1&gt;Game Over...&lt;/h1&gt;
-&lt;a&gt;[[&lt;img src=&quot;https://cdn.myportfolio.com/8e3e47e4-98a3-4df0-bffa-f108a70a0574/495a063d-f321-4f3e-8df3-570736867929_rw_600.gif?h=36e1edd8d946f66a4f5651a73c0d312c&quot; alt=&quot;&quot; /&gt;|startpage]]&lt;/a&gt;
+&lt;img src=&quot;https://cdn.myportfolio.com/8e3e47e4-98a3-4df0-bffa-f108a70a0574/063a5496-8fb3-42b7-827a-37e400b8c090.png?h=77857a6040aae787ed3c31672b701879&quot;&gt;
+
+&lt;a&gt;[[restart|startpage]]&lt;/a&gt;
 </tw-passagedata><tw-passagedata pid="7" name="part4" tags="" position="1050,575" size="100,100">&lt;div class= &quot;fade-out-text-faster&quot;&gt;
 	&lt;h2&gt;Bella&lt;/h2&gt; 
 	&lt;p&gt; There are two ways, which way should I go?.&lt;/p&gt;
@@ -222,16 +228,17 @@ img{
 &lt;/div&gt;
 (live:10s)[(go-to:&quot;gameOver&quot;)]</tw-passagedata><tw-passagedata pid="8" name="part5" tags="" position="1250,550" size="100,100">&lt;div class= &quot;blur-text-and-fade&quot;&gt;
 	&lt;h2&gt;Bella&lt;/h2&gt; 
-	&lt;p&gt;Well, the choice didn&#39;t matter. (*The monster is closer, the growls are gettint louder*) 
+	&lt;p&gt;Well, the choice didn&#39;t matter. (*Sanity is low, vision is blurry*) What is this door?
 	&lt;/p&gt;
-    &lt;p&gt;(*you see a closet, you can se the monster&#39;s silhouette reflected on a wall. Your sanity is deteriorating, now is complicated to see*)&lt;/p&gt;
-	&lt;a&gt;[[Hide in the closet|part6]]&lt;/a&gt;
+    
+    
+	&lt;a&gt;[[&lt;img src=&quot;https://cdn.myportfolio.com/8e3e47e4-98a3-4df0-bffa-f108a70a0574/e80063e0-f825-4f11-bf83-91d515a3d149_rw_600.png?h=42a12983588fc1902c948673c4fbcaf4&quot;&gt;|part6]]&lt;/a&gt;
 	&lt;a&gt;[[Continue walking|gameovernothiding]]&lt;/a&gt;
 
 &lt;/div&gt;
 (live:10s)[(go-to:&quot;gameOver&quot;)]</tw-passagedata><tw-passagedata pid="9" name="gameovernothiding" tags="" position="725,550" size="100,100">&lt;p&gt; *You thought you can survive, but the monster was faster and agile. Underestimated it costed your life*&lt;/p&gt;
 &lt;h1&gt;Game Over&lt;/h1&gt;
-&lt;a&gt;[[Restart game|startpage]]</tw-passagedata><tw-passagedata pid="10" name="part6" tags="" position="1400,550" size="100,100">&lt;div class= &quot;blur-text-and-fade&quot;&gt;
+&lt;a&gt;[[&lt;img src=&quot;https://cdn.myportfolio.com/8e3e47e4-98a3-4df0-bffa-f108a70a0574/063a5496-8fb3-42b7-827a-37e400b8c090.png?h=77857a6040aae787ed3c31672b701879&quot;&gt;|startpage]]</tw-passagedata><tw-passagedata pid="10" name="part6" tags="" position="1400,550" size="100,100">&lt;div class= &quot;blur-text-and-fade&quot;&gt;
 	&lt;h2&gt;Bella&lt;/h2&gt; 
 	&lt;p&gt;(*You can hear steps, the moster is walking past you, any movement could reveal your position*)&lt;/p&gt;
 	&lt;a&gt;[[&lt;img src=&quot;https://cdn.myportfolio.com/8e3e47e4-98a3-4df0-bffa-f108a70a0574/495a063d-f321-4f3e-8df3-570736867929_rw_600.gif?h=36e1edd8d946f66a4f5651a73c0d312c&quot; alt=&quot;&quot; /&gt;|gameover]]&lt;/a&gt;
@@ -241,7 +248,9 @@ img{
 
 </tw-passagedata><tw-passagedata pid="11" name="gameover" tags="" position="725,700" size="100,100">&lt;p&gt;*Sometimes darkness is necessary.* &lt;/p&gt;
 &lt;h1&gt;Game Over...&lt;/h1&gt;
-&lt;a&gt;[[Restart game|startpage]]&lt;/a&gt;
+&lt;img src=&quot;https://cdn.myportfolio.com/8e3e47e4-98a3-4df0-bffa-f108a70a0574/063a5496-8fb3-42b7-827a-37e400b8c090.png?h=77857a6040aae787ed3c31672b701879&quot;&gt;
+
+&lt;a&gt;[[restart|startpage]]&lt;/a&gt;
 </tw-passagedata><tw-passagedata pid="12" name="part7" tags="" position="1500,600" size="100,100">&lt;div class= &quot;blur-text-and-fade&quot;&gt;
 	&lt;/p&gt; (*you opens the closet and make sure the monster is not near, then you lit the candle. The candle is almost consumed.*)
 	&lt;h2&gt;Bella&lt;/h2&gt; 
@@ -262,9 +271,11 @@ img{
 (live:10s)[(go-to:&quot;end&quot;)]</tw-passagedata><tw-passagedata pid="14" name="end" tags="" position="1300,700" size="100,100">&lt;p&gt;(*You decided to no open the door, Perhaphs it was a trap, you don&#39;t know. There is no way out, and you wait. Waiting as you see the monster reach you, you close your eyes, and then you don&#39;t feel anything anymore.*)&lt;/p&gt;
 
 &lt;h1&gt;The End&lt;/h1&gt;
-&lt;a&gt;[[Go back to menu|startpage]]&lt;/a&gt;</tw-passagedata><tw-passagedata pid="15" name="gameOverdoor" tags="" position="725,825" size="100,100">&lt;p&gt;*Not all doors lead to an exit, if you wait you can find the real exit*. &lt;/p&gt;
+&lt;a&gt;[[Go back to start|startpage]]&lt;/a&gt;</tw-passagedata><tw-passagedata pid="15" name="gameOverdoor" tags="" position="725,825" size="100,100">&lt;p&gt;*Not all doors lead to an exit, if you wait you can find the real exit*. &lt;/p&gt;
 &lt;h1&gt;Game Over...&lt;/h1&gt;
-&lt;a&gt;[[Restart game|startpage]]&lt;/a&gt;
+&lt;img src=&quot;https://cdn.myportfolio.com/8e3e47e4-98a3-4df0-bffa-f108a70a0574/063a5496-8fb3-42b7-827a-37e400b8c090.png?h=77857a6040aae787ed3c31672b701879&quot;&gt;
+
+&lt;a&gt;[[restart|startpage]]&lt;/a&gt;
 </tw-passagedata><tw-passagedata pid="16" name="Header" tags="" position="525,475" size="100,100">{
 (print: &quot;&lt;script&gt;$(&#39;html&#39;).removeClass(\)&lt;/script&gt;&quot;)
 (if: (passage:)&#39;s tags&#39;s length &gt; 0)[
